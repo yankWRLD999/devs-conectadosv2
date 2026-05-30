@@ -1,1 +1,284 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devs Conectados</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      background: #0b0b0f;
+      color: #ffffff;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* HERO */
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+      background: radial-gradient(circle at top, #1a1a2e, #0b0b0f);
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      opacity: 0.8;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 12px 20px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .primary {
+      background: linear-gradient(90deg, #4f46e5, #06b6d4);
+      color: white;
+    }
+
+    .secondary {
+      background: transparent;
+      border: 1px solid #444;
+      color: white;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 80px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      padding: 20px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 10px 0;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid #222;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Conectando desenvolvedores, ideias e oportunidades reais.</h1>
+    <p>
+      Uma comunidade para quem quer aprender tecnologia na prática, participar de hackathons, criar projetos, montar networking e crescer junto com outros devs.
+    </p>
+
+    <div class="buttons">
+      <button class="btn primary">Entrar na comunidade</button>
+      <button class="btn primary">Participar dos projetos</button>
+      <button class="btn secondary">Ver próximos eventos</button>
+      <button class="btn secondary">Conhecer os membros</button>
+    </div>
+
+    <div class="container" style="margin-top:40px;">
+      <p>🚀 Hackathons e ideathons</p>
+      <p>💡 Projetos colaborativos</p>
+      <p>☁️ Cloud, IA e Cibersegurança</p>
+      <p>🤝 Networking entre devs</p>
+      <p>🎓 Compartilhamento de oportunidades</p>
+      <p>📍 Comunidade local + online</p>
+    </div>
+  </div>
+
+  <!-- SOBRE -->
+  <section>
+    <h2>O que é o Devs Conectados?</h2>
+    <div class="container">
+      <div class="card">
+        <p>
+          O Devs Conectados nasceu da vontade de reunir pessoas apaixonadas por tecnologia para construir coisas reais.
+          <br><br>
+          Aqui a ideia é simples:
+          <br>
+          aprender juntos; trocar experiências; participar de eventos; criar projetos; encontrar oportunidades; formar equipes; evoluir como desenvolvedor.
+          <br><br>
+          Não importa se você está começando agora ou já trabalha na área.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- O QUE ACONTECE -->
+  <section>
+    <h2>O que acontece na comunidade</h2>
+    <div class="container grid">
+
+      <div class="card">
+        <h3>💻 Projetos Colaborativos</h3>
+        <p>Participação em projetos reais envolvendo web, IA, cloud, jogos e startups.</p>
+      </div>
+
+      <div class="card">
+        <h3>🏆 Hackathons</h3>
+        <p>Equipes para eventos de inovação e desafios tecnológicos.</p>
+      </div>
+
+      <div class="card">
+        <h3>📚 Oportunidades</h3>
+        <p>Cursos, bootcamps, vagas, certificações e eventos.</p>
+      </div>
+
+      <div class="card">
+        <h3>☁️ Trilhas Tech</h3>
+        <p>IA, Cloud, Cybersecurity, Web, Open Source, Game Dev.</p>
+      </div>
+
+      <div class="card">
+        <h3>🤝 Networking</h3>
+        <p>Conexão entre devs, freelancers e estudantes.</p>
+      </div>
+
+      <div class="card">
+        <h3>🎤 Reuniões</h3>
+        <p>Calls online e encontros para projetos e ideias.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PARA QUEM É -->
+  <section>
+    <h2>Quem pode participar?</h2>
+    <div class="container card">
+      <ul>
+        <li>Estudantes de tecnologia</li>
+        <li>Desenvolvedores iniciantes</li>
+        <li>Programadores experientes</li>
+        <li>Pessoas interessadas em hackathons</li>
+        <li>Quem quer montar portfólio</li>
+        <li>Quem busca networking</li>
+        <li>Quem quer aprender construindo</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAL -->
+  <section>
+    <h2>Mais prática. Menos teoria isolada.</h2>
+    <div class="container card">
+      <p>
+        A comunidade foca em experiências reais: projetos, eventos, problemas reais, equipes e troca constante de conhecimento.
+      </p>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section>
+    <h2>Como funciona</h2>
+    <div class="container grid">
+
+      <div class="card">1. Entre na comunidade</div>
+      <div class="card">2. Escolha projetos ou eventos</div>
+      <div class="card">3. Monte conexões</div>
+      <div class="card">4. Aprenda na prática</div>
+
+    </div>
+  </section>
+
+  <!-- FRASES -->
+  <section>
+    <h2>Frases</h2>
+    <div class="container grid">
+
+      <div class="card">Construindo ideias com pessoas reais.</div>
+      <div class="card">Tecnologia cresce melhor em comunidade.</div>
+      <div class="card">Aprender, criar e evoluir juntos.</div>
+      <div class="card">Do networking ao projeto real.</div>
+      <div class="card">Uma comunidade feita por devs para devs.</div>
+
+    </div>
+  </section>
+
+  <!-- VISÃO -->
+  <section>
+    <h2>Nossa visão</h2>
+    <div class="container card">
+      <p>
+        Criar um ecossistema onde pessoas aprendem, criam startups, participam de eventos, encontram oportunidades e constroem soluções reais.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section>
+    <h2>Pronto para construir algo com a gente?</h2>
+    <div class="container card" style="text-align:center;">
+      <p>Entre na comunidade e faça parte de uma rede de desenvolvedores conectados por tecnologia e inovação.</p>
+
+      <div class="buttons">
+        <button class="btn primary">Entrar no grupo</button>
+        <button class="btn primary">Participar dos projetos</button>
+        <button class="btn secondary">Ver eventos</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    Discord | WhatsApp | Instagram <br><br>
+    Calendário de eventos | Contato <br><br>
+    Feito pela comunidade Devs Conectados
+  </div>
+
+</body>
+</html>
